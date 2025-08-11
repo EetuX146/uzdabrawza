@@ -33,6 +33,9 @@ uzdabrawza --task "Go to example.com and tell me the page title"
 
 # 4. Or use any other provider
 uzdabrawza --provider anthropic --model claude-opus-4-1
+
+# 5. Better yet, copy run.example.sh from the repo and shove it up your asshole somewhere
+# Then customize it for your own automation needs
 ```
 
 ---
