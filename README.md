@@ -23,12 +23,10 @@ uzdabrawza is the most irreverent, crude, and effective neural brainfuck automat
 ## 🚀 Quick Start (For the Impatient)
 
 ```bash
-# 1. Install the package
-pip install uzdabrawza
+# 1. Install the package globally
+pipx install uzdabrawza
 
-# 2. Copy and fill in your API keys
-cp .env.example .env
-nano .env  # Fill in your fucking API keys
+# 2. Check .env.example in the repo and create your own .env with your API keys
 
 # 3. Run with local ollama (free neural overlord, fuck paying corporate Skynet)
 uzdabrawza --task "Go to example.com and tell me the page title"
