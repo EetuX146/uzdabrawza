@@ -4,28 +4,24 @@ build-backend = "hatchling.build"
 
 [project]
 name = "uzdabrawza"
-version = "1.0.0"
+version = "1.0.2"
 description = "The Anal-Queen of AI Browser Automation - A beautifully fucked-up browser automation script that actually works"
 readme = "README.md"
-license = {file = "LICENSE"}
-authors = [
-    {name = "uzdabrawza", email = "uzdabrawza@example.com"}
-]
-maintainers = [
-    {name = "uzdabrawza", email = "uzdabrawza@example.com"}
-]
+license = { file = "LICENSE" }
+authors = [{ name = "uzdabrawza", email = "uzdabrawza@example.com" }]
+maintainers = [{ name = "uzdabrawza", email = "uzdabrawza@example.com" }]
 keywords = [
-    "browser-automation", 
-    "playwright", 
-    "web-scraping", 
-    "stealth", 
-    "bot-detection", 
-    "llm", 
+    "browser-automation",
+    "playwright",
+    "web-scraping",
+    "stealth",
+    "bot-detection",
+    "llm",
     "ai-automation",
     "browser-use",
     "patchright",
     "automation",
-    "scraping"
+    "scraping",
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -54,11 +50,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-build = [
-    "build>=1.0.0",
-    "hatchling>=1.21.0", 
-    "twine>=4.0.0",
-]
+build = ["build>=1.0.0", "hatchling>=1.21.0", "twine>=4.0.0"]
 
 [project.urls]
 Homepage = "https://github.com/psyb0t/uzdabrawza"
@@ -79,7 +71,7 @@ packages = ["uzdabrawza"]
 [tool.hatch.build.targets.sdist]
 include = [
     "/uzdabrawza",
-    "/README.md", 
+    "/README.md",
     "/LICENSE",
     "/pyproject.toml",
     "/.env.example",
@@ -88,13 +80,12 @@ exclude = [
     "/.git*",
     "/venv",
     "/build",
-    "/dist", 
+    "/dist",
     "/__pycache__",
     "/*.egg-info",
     "/device_id",
     "/extensions",
     "/profiles",
     "*.pyc",
-    ".DS_Store"
+    ".DS_Store",
 ]
-
