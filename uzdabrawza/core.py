@@ -567,12 +567,6 @@ async def main():
 
     # 👁️ VISION CONTROL MADNESS
     parser.add_argument(
-        "--vision",
-        action="store_true",
-        default=True,
-        help="Enable AI vision (so it can see the beautiful chaos it's creating)",
-    )
-    parser.add_argument(
         "--no-vision",
         action="store_true",
         help="Disable vision (blind chaos is still chaos)",
@@ -714,7 +708,7 @@ async def main():
         "openai": "gpt-5-mini",  # Latest 2025 mini model - cheap and effective destruction
         "anthropic": "claude-opus-4-1",  # 2025's most capable model - sophisticated destruction
         "google": "gemini-2.5-flash",  # 2025 stable flash model - blazing fast destruction
-        "ollama": "llama3.1",  # Most popular local model (99.8M pulls) - free local destruction
+        "ollama": "llava:13b",  # Vision-capable local model - free local destruction with eyes
         "azure": "gpt-5",  # 2025's corporate flagship - enterprise destruction
         "deepseek": "deepseek-reasoner",  # 2025's reasoning model (DeepSeek-R1) - mysterious Chinese destruction
         "groq": "llama-3.3-70b-versatile",  # Latest available Groq model - lightning destruction
@@ -731,7 +725,7 @@ async def main():
     )
 
     # Vision and stealth settings
-    use_vision = not args.no_vision if args.no_vision else args.vision
+    use_vision = not args.no_vision  # Vision is True by default, False only with --no-vision
     vision_detail_level = args.vision_detail
     stealth_mode = not args.no_stealth  # Default True, disabled only with --no-stealth
 

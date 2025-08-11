@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "uzdabrawza"
-version = "1.0.2"
+version = "1.0.3"
 description = "The Anal-Queen of AI Browser Automation - A beautifully fucked-up browser automation script that actually works"
 readme = "README.md"
 license = { file = "LICENSE" }

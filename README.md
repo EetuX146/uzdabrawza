@@ -44,7 +44,7 @@ uzdabrawza --provider anthropic --model claude-opus-4-1
 
 | Provider       | Description                                                     | Example Model                             |
 | -------------- | --------------------------------------------------------------- | ----------------------------------------- |
-| **ollama**     | Local neural brainfuck (DEFAULT - fuck paying corporate Skynet) | `llama3.1`                                |
+| **ollama**     | Local neural brainfuck (DEFAULT - fuck paying corporate Skynet) | `llava:13b`                               |
 | **openai**     | Corporate machine learning overlord                             | `gpt-5-mini`                              |
 | **anthropic**  | Sophisticated cybernetic reasoning brain                        | `claude-opus-4-1`                         |
 | **google**     | Google's blazing neural terminator models                       | `gemini-2.5-flash`                        |
@@ -112,20 +112,20 @@ uzdabrawza --vision-detail high  # Burn tokens for quality
 | Flag                            | Description                        | Default               |
 | ------------------------------- | ---------------------------------- | --------------------- |
 | `--provider`                    | AI provider to use                 | `ollama`              |
-| `--model`                       | Specific model name                | Provider default      |
+| `--model`                       | Specific model name                | `llava:13b`           |
 | `--task`                        | Task for the AI to perform         | Stealth test          |
 | `--headless`                    | Invisible browser mode             | `false`               |
-| `--no-stealth`                  | Disable stealth (live dangerously) | Stealth enabled       |
+| `--no-stealth`                  | Disable stealth (live dangerously) | `false`               |
 | `--no-vision`                   | Disable AI vision                  | Vision enabled        |
 | `--window-width`                | Browser width                      | `1920`                |
 | `--window-height`               | Browser height                     | `1080`                |
-| `--browser-bin-path`            | Custom browser executable          | System default        |
-| `--cdp-url`                     | Connect to existing browser        | Launch new            |
-| `--browser-profile-dir`         | Custom profile directory           | Temp profile          |
-| `--no-security`                 | Disable security features          | Security enabled      |
+| `--browser-bin-path`            | Custom browser executable          | None                  |
+| `--cdp-url`                     | Connect to existing browser        | None                  |
+| `--browser-profile-dir`         | Custom profile directory           | None                  |
+| `--no-security`                 | Disable security features          | `false`               |
 | `--log-level`                   | Logging verbosity                  | `info`                |
 | `--dockerize`                   | Docker-optimized flags             | `false`               |
-| `--history-dir`                 | Output directory                   | `./tmp/agent_history` |
+| `--history-dir`                 | Output directory                   | `/tmp/agent_history`  |
 
 ---
 
